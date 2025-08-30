@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주 감귤 농장</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #ff9900;
+            color: white;
+            padding: 1.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav {
+            background-color: #e68a00;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-item a {
+            display: block;
+            padding: 1rem 1.5rem;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .nav-item a:hover {
+            background-color: #d97900;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .section h2 {
+            color: #d97900;
+            border-bottom: 2px solid #ff9900;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        .section-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .button-group {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #ff9900;
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .button:hover {
+            background-color: #e68a00;
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #f7f7f7;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>제주 감귤 농장</h1>
+        <p>싱그러운 감귤의 향기가 가득한 곳</p>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#about" class="scroll-link">농장 소개</a></li>
+            <li class="nav-item"><a href="https://eager-hoof-ecd.notion.site/25fc54de5982801f9a05fc0406010bed?source=copy_link">농장 체험</a></li>
+            <li class="nav-item"><a href="#video" class="scroll-link">농장 홍보 영상</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+
+        <section id="about" class="section">
+            <h2>🍊 농장 소개</h2>
+            <img src="https://picsum.photos/id/1069/1100/300" alt="감귤밭 전경" class="section-image">
+            <p>
+                저희 농장은 제주도의 청정한 자연 속에서 정성껏 감귤을 재배하고 있습니다. 
+                가족의 건강을 생각하는 마음으로 화학 비료 대신 유기농 퇴비를 사용하며, 
+                하나하나 손으로 직접 수확하여 최상의 맛과 품질을 자랑합니다.
+                감귤 생산 과정에 대한 더 자세한 이야기는 아래 링크를 통해 확인해 보세요!
+            </p>
+            <div class="button-group">
+                <a href="https://www.notion.so/YOUR_NOTION_PAGE_URL_HERE_1" target="_blank" class="button">더 자세히 보기</a>
+            </div>
+        </section>
+        
+        <section id="experience" class="section">
+            <h2>🍊 감귤 따기 체험</h2>
+            <img src="https://picsum.photos/id/1080/1100/300" alt="감귤 따기 체험" class="section-image">
+            <p>
+                온 가족이 함께 즐길 수 있는 감귤 따기 체험에 여러분을 초대합니다!
+                직접 감귤을 따보고, 갓 딴 싱싱한 감귤을 맛보며 잊지 못할 추억을 만들어 보세요.
+                체험 예약 및 프로그램에 대한 자세한 내용은 아래 Notion 페이지에서 확인하실 수 있습니다.
+            </p>
+            <div class="button-group">
+                <a href="https://www.notion.so/YOUR_NOTION_PAGE_URL_HERE_2" target="_blank" class="button">체험 예약하기</a>
+            </div>
+        </section>
+        
+        <section id="video" class="section">
+            <h2>🍊 농장 홍보 영상</h2>
+            <img src="https://picsum.photos/id/1025/1100/300" alt="드론으로 촬영한 농장" class="section-image">
+            <p>
+                저희 농장의 아름다운 풍경과 싱그러운 감귤의 모습을 영상으로 만나보세요.
+                농부의 진심이 담긴 이야기를 통해 저희 농장이 얼마나 특별한 곳인지 느끼실 수 있을 거예요.
+                아래 링크에서 저희 농장의 홍보 영상을 보실 수 있습니다.
+            </p>
+            <div class="button-group">
+                <a href="https://www.notion.so/YOUR_NOTION_PAGE_URL_HERE_3" target="_blank" class="button">영상 보러가기</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>제주 감귤 농장 | 연락처: 010-1234-5678 | 이메일: farm@email.com</p>
+        <p>&copy; 2025 All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const scrollLinks = document.querySelectorAll('.scroll-link');
+
+            scrollLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    
+                    const targetId = link.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+</html>
